@@ -19,15 +19,15 @@ jobs:
     - name: Set up Xcode
       uses: maxim-lobanov/setup-xcode@v1
       with:
-        xcode-version: '15.4.0' # Adjust to your Xcode version
+        xcode-version: '15.4.0' # Adjusted to use an available Xcode version
 
     - name: Build the app
       run: |
-        xcodebuild -workspace SnoreBuddy.xcworkspace -scheme SnoreBuddy -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 12,OS=15.2' build
+        xcodebuild -project SnoreBuddy.xcodeproj -scheme SnoreBuddy -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 12,OS=15.2' build
 
     - name: Archive the app
       run: |
-        xcodebuild -workspace SnoreBuddy.xcworkspace -scheme SnoreBuddy -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 12,OS=15.2' archive -archivePath $PWD/build/SnoreBuddy.xcarchive
+        xcodebuild -project SnoreBuddy.xcodeproj -scheme SnoreBuddy -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 12,OS=15.2' archive -archivePath $PWD/build/SnoreBuddy.xcarchive
 
     - name: Export the app
       run: |
