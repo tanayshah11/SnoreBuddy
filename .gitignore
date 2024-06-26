@@ -1,0 +1,75 @@
+# Xcode
+#
+build/
+DerivedData/
+*.xcworkspace
+xcuserdata/
+*.xcodeproj/project.xcworkspace
+*.xcodeproj/xcuserdata
+*.xcodeproj/xcshareddata
+*.xcodeproj/xcdebugger
+*.xcodeproj/xcuserdata/*
+
+# Swift Package Manager
+#
+Packages
+# Package build artifacts
+*.swiftpm
+.build/
+# Xcode 11+ Package resolution
+.swiftpm/xcode
+
+# CocoaPods
+#
+Pods/
+Podfile.lock
+Podfile~
+
+# Carthage
+#
+Carthage/Build/
+
+# fastlane
+#
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+
+# Code Signing
+#
+*.mobileprovision
+*.provisionprofile
+
+# Bundle artifacts
+#
+*.ipa
+*.dSYM.zip
+*.app.dSYM
+*.app
+*.app.xcent
+
+# macOS
+#
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+#
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
