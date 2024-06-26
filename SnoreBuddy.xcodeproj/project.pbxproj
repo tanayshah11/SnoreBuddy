@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		447F89BB2C2BA7630019AEA5 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447F89BA2C2BA7630019AEA5 /* HealthKitManager.swift */; };
+		447F89BD2C2BAF090019AEA5 /* SleepViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447F89BC2C2BAF090019AEA5 /* SleepViewModel.swift */; };
+		447F89BF2C2BAF750019AEA5 /* SleepDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447F89BE2C2BAF750019AEA5 /* SleepDataStore.swift */; };
+		448A685A2C062C5D00DD5C59 /* SnoreBuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448A68592C062C5D00DD5C59 /* SnoreBuddyApp.swift */; };
+		448A685C2C062C5D00DD5C59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448A685B2C062C5D00DD5C59 /* ContentView.swift */; };
+		448A685E2C062C5F00DD5C59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 448A685D2C062C5F00DD5C59 /* Assets.xcassets */; };
+		448A68612C062C5F00DD5C59 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 448A68602C062C5F00DD5C59 /* Preview Assets.xcassets */; };
+		448A68682C062FDB00DD5C59 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448A68672C062FDB00DD5C59 /* DetailsView.swift */; };
+		448A686A2C06303A00DD5C59 /* QualityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448A68692C06303A00DD5C59 /* QualityView.swift */; };
+		448A686C2C06305700DD5C59 /* DebtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448A686B2C06305700DD5C59 /* DebtView.swift */; };
+		448A686E2C06306400DD5C59 /* RecoveryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448A686D2C06306400DD5C59 /* RecoveryView.swift */; };
+		448A68702C06306F00DD5C59 /* ProductivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448A686F2C06306F00DD5C59 /* ProductivityView.swift */; };
+		448A68722C06311B00DD5C59 /* CalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448A68712C06311B00DD5C59 /* CalenderView.swift */; };
+		448A68762C063F3000DD5C59 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 448A68742C063F3000DD5C59 /* Inter-Bold.ttf */; };
+		448A68772C063F3000DD5C59 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 448A68752C063F3000DD5C59 /* Inter-SemiBold.ttf */; };
+		448A687A2C0642F600DD5C59 /* FontStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448A68792C0642F600DD5C59 /* FontStyles.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		447F89BA2C2BA7630019AEA5 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		447F89BC2C2BAF090019AEA5 /* SleepViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepViewModel.swift; sourceTree = "<group>"; };
+		447F89BE2C2BAF750019AEA5 /* SleepDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepDataStore.swift; sourceTree = "<group>"; };
+		448A68562C062C5D00DD5C59 /* SnoreBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnoreBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		448A68592C062C5D00DD5C59 /* SnoreBuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnoreBuddyApp.swift; sourceTree = "<group>"; };
+		448A685B2C062C5D00DD5C59 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		448A685D2C062C5F00DD5C59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		448A68602C062C5F00DD5C59 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		448A68672C062FDB00DD5C59 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		448A68692C06303A00DD5C59 /* QualityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QualityView.swift; sourceTree = "<group>"; };
+		448A686B2C06305700DD5C59 /* DebtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebtView.swift; sourceTree = "<group>"; };
+		448A686D2C06306400DD5C59 /* RecoveryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoveryView.swift; sourceTree = "<group>"; };
+		448A686F2C06306F00DD5C59 /* ProductivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductivityView.swift; sourceTree = "<group>"; };
+		448A68712C06311B00DD5C59 /* CalenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderView.swift; sourceTree = "<group>"; };
+		448A68742C063F3000DD5C59 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		448A68752C063F3000DD5C59 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		448A68782C063F5A00DD5C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		448A68792C0642F600DD5C59 /* FontStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontStyles.swift; sourceTree = "<group>"; };
+		44A106F92C1BC3C600F076D7 /* SnoreBuddy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SnoreBuddy.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		448A68532C062C5D00DD5C59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		448A684D2C062C5D00DD5C59 = {
+			isa = PBXGroup;
+			children = (
+				448A68582C062C5D00DD5C59 /* SnoreBuddy */,
+				448A68572C062C5D00DD5C59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		448A68572C062C5D00DD5C59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				448A68562C062C5D00DD5C59 /* SnoreBuddy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		448A68582C062C5D00DD5C59 /* SnoreBuddy */ = {
+			isa = PBXGroup;
+			children = (
+				44A106F92C1BC3C600F076D7 /* SnoreBuddy.entitlements */,
+				448A68782C063F5A00DD5C59 /* Info.plist */,
+				448A68592C062C5D00DD5C59 /* SnoreBuddyApp.swift */,
+				448A685B2C062C5D00DD5C59 /* ContentView.swift */,
+				448A68712C06311B00DD5C59 /* CalenderView.swift */,
+				448A68672C062FDB00DD5C59 /* DetailsView.swift */,
+				447F89BC2C2BAF090019AEA5 /* SleepViewModel.swift */,
+				447F89BE2C2BAF750019AEA5 /* SleepDataStore.swift */,
+				447F89BA2C2BA7630019AEA5 /* HealthKitManager.swift */,
+				448A68692C06303A00DD5C59 /* QualityView.swift */,
+				448A686B2C06305700DD5C59 /* DebtView.swift */,
+				448A686D2C06306400DD5C59 /* RecoveryView.swift */,
+				448A686F2C06306F00DD5C59 /* ProductivityView.swift */,
+				448A685D2C062C5F00DD5C59 /* Assets.xcassets */,
+				448A68732C063EAF00DD5C59 /* Fonts */,
+				448A685F2C062C5F00DD5C59 /* Preview Content */,
+			);
+			path = SnoreBuddy;
+			sourceTree = "<group>";
+		};
+		448A685F2C062C5F00DD5C59 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				448A68602C062C5F00DD5C59 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		448A68732C063EAF00DD5C59 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				448A68742C063F3000DD5C59 /* Inter-Bold.ttf */,
+				448A68752C063F3000DD5C59 /* Inter-SemiBold.ttf */,
+				448A68792C0642F600DD5C59 /* FontStyles.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		448A68552C062C5D00DD5C59 /* SnoreBuddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 448A68642C062C5F00DD5C59 /* Build configuration list for PBXNativeTarget "SnoreBuddy" */;
+			buildPhases = (
+				448A68522C062C5D00DD5C59 /* Sources */,
+				448A68532C062C5D00DD5C59 /* Frameworks */,
+				448A68542C062C5D00DD5C59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnoreBuddy;
+			productName = SnoreBuddy;
+			productReference = 448A68562C062C5D00DD5C59 /* SnoreBuddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		448A684E2C062C5D00DD5C59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					448A68552C062C5D00DD5C59 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 448A68512C062C5D00DD5C59 /* Build configuration list for PBXProject "SnoreBuddy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 448A684D2C062C5D00DD5C59;
+			productRefGroup = 448A68572C062C5D00DD5C59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				448A68552C062C5D00DD5C59 /* SnoreBuddy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		448A68542C062C5D00DD5C59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448A68772C063F3000DD5C59 /* Inter-SemiBold.ttf in Resources */,
+				448A68762C063F3000DD5C59 /* Inter-Bold.ttf in Resources */,
+				448A68612C062C5F00DD5C59 /* Preview Assets.xcassets in Resources */,
+				448A685E2C062C5F00DD5C59 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		448A68522C062C5D00DD5C59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448A686A2C06303A00DD5C59 /* QualityView.swift in Sources */,
+				447F89BD2C2BAF090019AEA5 /* SleepViewModel.swift in Sources */,
+				448A686C2C06305700DD5C59 /* DebtView.swift in Sources */,
+				448A687A2C0642F600DD5C59 /* FontStyles.swift in Sources */,
+				448A685C2C062C5D00DD5C59 /* ContentView.swift in Sources */,
+				448A686E2C06306400DD5C59 /* RecoveryView.swift in Sources */,
+				448A68702C06306F00DD5C59 /* ProductivityView.swift in Sources */,
+				448A685A2C062C5D00DD5C59 /* SnoreBuddyApp.swift in Sources */,
+				448A68722C06311B00DD5C59 /* CalenderView.swift in Sources */,
+				447F89BB2C2BA7630019AEA5 /* HealthKitManager.swift in Sources */,
+				448A68682C062FDB00DD5C59 /* DetailsView.swift in Sources */,
+				447F89BF2C2BAF750019AEA5 /* SleepDataStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		448A68622C062C5F00DD5C59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		448A68632C062C5F00DD5C59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		448A68652C062C5F00DD5C59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SnoreBuddy/SnoreBuddy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SnoreBuddy/Preview Content\"";
+				DEVELOPMENT_TEAM = YNP2C87J6C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SnoreBuddy/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This App requires Access to your Health/Sleep data.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanayshah.SnoreBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		448A68662C062C5F00DD5C59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SnoreBuddy/SnoreBuddy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SnoreBuddy/Preview Content\"";
+				DEVELOPMENT_TEAM = YNP2C87J6C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SnoreBuddy/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "This App requires Access to your Health/Sleep data.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanayshah.SnoreBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		448A68512C062C5D00DD5C59 /* Build configuration list for PBXProject "SnoreBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				448A68622C062C5F00DD5C59 /* Debug */,
+				448A68632C062C5F00DD5C59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		448A68642C062C5F00DD5C59 /* Build configuration list for PBXNativeTarget "SnoreBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				448A68652C062C5F00DD5C59 /* Debug */,
+				448A68662C062C5F00DD5C59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 448A684E2C062C5D00DD5C59 /* Project object */;
+}
