@@ -23,11 +23,11 @@ jobs:
 
     - name: Build the app
       run: |
-        xcodebuild -project SnoreBuddy.xcodeproj -scheme SnoreBuddy -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 12,OS=15.2' build
+        xcodebuild -project SnoreBuddy.xcodeproj -scheme SnoreBuddy -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 12,OS=15.2' build -allowProvisioningUpdates
 
     - name: Archive the app
       run: |
-        xcodebuild -project SnoreBuddy.xcodeproj -scheme SnoreBuddy -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 12,OS=15.2' archive -archivePath $PWD/build/SnoreBuddy.xcarchive
+        xcodebuild -project SnoreBuddy.xcodeproj -scheme SnoreBuddy -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 12,OS=15.2' archive -archivePath $PWD/build/SnoreBuddy.xcarchive -allowProvisioningUpdates
 
     - name: Export the app
       run: |
