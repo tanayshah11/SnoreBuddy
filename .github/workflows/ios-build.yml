@@ -21,11 +21,6 @@ jobs:
       with:
         xcode-version: '15.4.0' # Adjust to your Xcode version
 
-    - name: Install dependencies
-      run: |
-        gem install cocoapods
-        pod install
-
     - name: Build the app
       run: |
         xcodebuild -workspace SnoreBuddy.xcworkspace -scheme SnoreBuddy -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 12,OS=15.2' build
